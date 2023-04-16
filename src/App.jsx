@@ -1,8 +1,10 @@
-const App = () => {
-  const [count, setCount] = useState(0)
+import { BrowserRouter } from "react-router-dom";
 
+import { About, Contact, Expirience, Feedbacks, Hero, NavBar, Tech, Works, StarsCanvas } from './components'
+
+const App = () => {
   return (
-    <div className="">
+    <div >
       3D developer portfolio
     </div>
   )
